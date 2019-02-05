@@ -54,8 +54,7 @@ end
 
 def starts_with_consonant? s
   # YOUR CODE HERE
-  
-  #(s[0] =~ /([^AEIOU])&([^aeiou])/) ? true : false
+ 
   (s[0] =~ /[b-d-f-h-j-n-p-t-v-z]/i) ? true : false 
 end
 
